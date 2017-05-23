@@ -3,8 +3,8 @@ spring-springmvc
 ## 项目介绍
 单纯的spring整合springmvc，整合所需算的最简配置
 
-项目结构
-### main
+## 项目结构
+main
 - controller:控制层，UserController展示了两种返回而类型情况:跳转页面和返回对象  
 
 部分代码展示:
@@ -25,7 +25,8 @@ spring-springmvc
 - service:业务处理层，包含一个impl包，Service以接口类型存在，impl包下存放Service接口的实现类
 - dao:数据库交互层
 - model:实体对象层
-### resources
+
+resources
 - application.xml:spring配置文件入口
 - spring-mvc.xml:springmvc配置相关文件
 
@@ -53,7 +54,7 @@ spring-springmvc
         <property name="suffix" value=".jsp"/>
     </bean>
 ```
-### webapp
+webapp
 - web.xml
 
 部分代码展示:
