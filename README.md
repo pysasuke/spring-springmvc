@@ -1,6 +1,6 @@
 spring-springmvc
 ===
-##项目介绍
+## 项目介绍
 单纯的spring整合springmvc，整合所需算的最简配置
 
 项目结构
