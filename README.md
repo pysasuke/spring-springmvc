@@ -7,7 +7,7 @@ spring-springmvc
 main
 - controller:控制层，UserController展示了两种返回而类型情况:跳转页面和返回对象  
 
-部分代码展示:
+ 部分代码展示:
 ```
  //跳转到jsp页面
     @RequestMapping("jspViewTest")
@@ -30,7 +30,7 @@ resources
 - application.xml:spring配置文件入口
 - spring-mvc.xml:springmvc配置相关文件
 
-部分代码展示:
+ 部分代码展示:
 ```
     <!-- 自动扫描该包，使SpringMVC认为包下用了@controller注解的类是控制器 -->
     <context:component-scan base-package="com.py.controller">
@@ -57,7 +57,7 @@ resources
 webapp
 - web.xml
 
-部分代码展示:
+ 部分代码展示:
 ```
 <!-- SpringMVC核心 -->
     <servlet>
