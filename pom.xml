@@ -76,13 +76,20 @@
             <version>${slf4j.version}</version>
         </dependency>
 
-
-
-
-
-
-
-
+        <!--不加访问controller方法时会报错
+        java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/JsonProcessingException-->
+        <!-- JSON begin -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <!-- JSON end -->
 
     </dependencies>
 
